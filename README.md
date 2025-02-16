@@ -33,15 +33,15 @@ sudo ln -s /usr/lib/x86_64-linux-gnu/dri/swrast_dri.so /usr/lib/dri/swrast_dri.s
 LIBGL_ALWAYS_SOFTWARE=1 python game.py
 ```
 
-You can move the player(box) with the arrow keys and when you touch the other player(box), you can initaite a talk by pressing 'E'
+You can move the player(blue box) with the arrow keys and when you touch the other player(green and red box), you can initaite a talk by pressing 'e'
 End the talk by pressing 'ESC'
 
 ### Sample output
 
-Sample output from Flan-T5-LLM game player
+Sample output from Flan-T5-LLM game player:
 
 ![Chatbot Example](images/flan.png)
 
-Sample output from Distill-GPT2-LLM game player
+Sample output from Distill-GPT2-LLM game player:
 
 ![Chatbot Example](images/distillgpt2.png)
